@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main{
+    height:300px;
+    background:lightgreen;
+    padding:12px;
+    margin:25px 25px 25px 25px;
+
+    
+}
+.header{
+    color: rgb(29, 32, 226);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+
+
+}
+#demo2{
+    color: brown;
+    margin: 12px auto;
+    padding:20px 23px;
+}
+div{
+    text-align: center;
+    margin-top:12px;
+    width:100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

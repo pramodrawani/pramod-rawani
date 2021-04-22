@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- event in js -->
+    <div class="main">
+        <div class="header">welcome to javascrpt tutorial</div>
+        <label for="">name</label><input type="text" name="username" id="inputdemo">
+        <div>
+            <select id="selection" name="selection">
+            <option value="choose flavour">choose flavour</option>
+            <option value="vanila-flavour">vanila-flavour</option>
+            <option value="chcolate-flavour">chcolate-flavour</option>
+            <option value="fruit-flavour">fruit-flavour</option>
+            <option value="kaju-flavour">kaju-flavour</option>
+        </select>
+        <h3 id="demo2"></h3>
+    </div>
+       
+
+    </div>
+
+   
+     <script>
+        
+        selection.addEventListener('change',()=>{
+
+            const input = document.getElementById('inputdemo').value;
+        const selection =document.getElementById('selection').value;
+        const res = document.querySelector('#demo2');
+        res.innerHTML=`mr ${input} selects  ${selection}`;
+
+        res.style.backgroundColor="teal";
+        res.style.color="white";
+
+
+         
+        
+        });
+        
+     </script>
+</body>
+</html>
